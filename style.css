@@ -1,0 +1,22 @@
+.gameboard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 2px;
+}
+
+.gamefield {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: 2px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.playercreation-container {
+    display: flex;
+    gap: 2px;
+}
